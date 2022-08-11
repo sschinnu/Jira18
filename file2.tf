@@ -14,11 +14,3 @@ resource "aws_s3_bucket" "mfadeletefile11" {
     mfa_delete = true
   }
 }
-resource "aws_s3_bucket" "teststephy22" {
-  bucket = "teststephy22"
-  acl    = "private"
-  versioning {
-    enabled = true
-    mfa_delete = true
-  }
-}
