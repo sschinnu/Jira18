@@ -1,4 +1,4 @@
-resource "aws_s3_bucket" "mfadeletefile" {
+resource "aws_s3_bucket" "mfadeletefile1" {
   bucket = "mfadeletefile"
   acl    = "private"
   versioning {
@@ -6,8 +6,8 @@ resource "aws_s3_bucket" "mfadeletefile" {
     mfa_delete = true
   }
 }
-resource "aws_s3_bucket" "stephy" {
-  bucket = "stephy"
+resource "aws_s3_bucket" "stephy1" {
+  bucket = "stephy1"
   acl    = "private"
   versioning {
     enabled = true
@@ -15,8 +15,8 @@ resource "aws_s3_bucket" "stephy" {
   }
 }
 
-resource "aws_s3_bucket" "stephy1" {
-  bucket = "stephy1"
+resource "aws_s3_bucket" "stephy2" {
+  bucket = "stephy2"
   acl    = "private"
   versioning {
     enabled = true
